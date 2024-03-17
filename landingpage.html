@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Lover's Paradise</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #c0392b;
+    box-sizing: border-box;
+    background-image: url(food3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ea8c8c;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.about-section,
+.menu-section,
+.contact-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #0a0a0a;
+    border-radius: 5px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Food Lover's Paradise</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to Food Lover's Paradise, where we serve delicious and mouthwatering dishes prepared with love and passion.</p>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Spicy Chicken Tacos</h3>
+            <p>Grilled chicken, spicy salsa, lettuce, and cheese in a warm tortilla.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Vegetarian Pizza</h3>
+            <p>Fresh vegetables, tomato sauce, and mozzarella cheese on a crispy crust.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to place an order? Contact us!</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Food Lover's Paradise. <br> mail:example@fj.com</p>
+    </footer>
+</body>
+</html>
